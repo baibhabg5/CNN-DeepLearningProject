@@ -10,7 +10,7 @@ The repository contrasts custom baseline models with transfer learning approache
 
 ---
 
-## 🛠️ Models Implemented & Tested
+##  Models Implemented & Tested
 1. **Custom Sequential CNN (CNN1):** 5-layer baseline network.
 2. **Batch-Normalized CNN (CNN2):** 5-layer network with internal covariate shift stabilization.
 3. **VGG16 (From Scratch):** Deep architecture with $3\times3$ filters built ground-up.
@@ -23,10 +23,10 @@ The repository contrasts custom baseline models with transfer learning approache
 ---
 
 
-## 🚀 Key Takeaways
+##  Key Takeaways
 - **Transfer Learning Superiority:** Pre-trained models (VGG19/VGG16) significantly outperformed scratch implementations, leveraging rich spatial visual representations learned from ImageNet.
 - **Depth Constraints from Scratch:** Deep architectures like VGG16/19 trained from scratch struggled to converge within 20 epochs, confirming the need for pre-training or longer training cycles on small datasets.
 - **Impact of Batch Normalization:** Adding Batch Normalization (CNN2) improved training stability and boosted accuracy over the simple baseline (CNN1).
 
-## 🔗 Notebook Link
+##  Notebook Link OR see in the Code folder
 [You can open and execute the project in Google Colab:](https://colab.research.google.com/drive/1TMBj1Ff3AUGWUb-t7PNSqAB2nRVHTXlJ?usp=sharing)
